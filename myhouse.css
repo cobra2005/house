@@ -1,0 +1,167 @@
+:root{
+    --top-color: red;
+    --leaf-color: green;
+}
+body{
+    margin: 0;
+    overflow: hidden;
+}
+.house{
+    position: relative;
+    left: 200px;
+}
+.body{
+    width: 500px;
+    height: 400px;
+    background-color: blue;
+    margin-top: 90px;
+    margin-left: 600px;
+}
+.door{
+    width: 100px;
+    height: 200px;
+    background-color: chocolate;
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+.window{
+    width: 80px;
+    height: 50px;
+    background-color: #FFF;
+}
+.window2{
+    position: relative;
+    left: 60px;
+}
+.window1{
+    position: relative;
+    top: 50px;
+    left: 360px;
+}
+.top{
+    position: relative;
+    top: 100px;
+    left: 600px;
+}
+.top1{
+    background-color: var(--top-color);
+    width: 50px;
+    height: 20px;
+    position: relative;
+    left: 225px;
+}
+.top2{
+    background-color: var(--top-color);
+    width: 100px;
+    height: 20px;
+    position: relative;
+    left: 200px;
+}
+.top3{
+    background-color: var(--top-color);
+    width: 150px;
+    height: 20px;
+    position: relative;
+    left: 175px;
+}
+.top4{
+    background-color: var(--top-color);
+    width: 200px;
+    height: 20px;
+    position: relative;
+    left: 150px;
+}
+.top5{
+    background-color: var(--top-color);
+    width: 250px;
+    height: 20px;
+    position: relative;
+    left: 125px;
+}
+.top6{
+    background-color: var(--top-color);
+    width: 300px;
+    height: 20px;
+    position: relative;
+    left: 100px;
+}
+.top7{
+    background-color: var(--top-color);
+    width: 350px;
+    height: 20px;
+    position: relative;
+    left: 75px;
+}
+.top8{
+    background-color: var(--top-color);
+    width: 400px;
+    height: 20px;
+    position: relative;
+    left: 50px;
+}
+.top9{
+    background-color: var(--top-color);
+    width: 450px;
+    height: 20px;
+    position: relative;
+    left: 25px;
+}
+.top10{
+    background-color: var(--top-color);
+    width: 500px;
+    height: 20px;
+    position: relative;
+}
+.leaf{
+    background-color: var(--leaf-color);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -600px;
+    left: 170px;
+    z-index: 10;
+}
+.bodytree{
+    width: 50px;
+    height: 400px;
+    background-color: #996600;
+    position: relative;
+    top: -700px;
+    left: 300px;
+}
+.apple{
+    background-color: var(--top-color);
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -1200px;
+}
+.apple1{
+    position: relative;
+    left: 400px;
+    z-index: 11;
+}
+.apple2{
+    position: relative;
+    left: 300px;
+    top: -1230px;
+    z-index: 11;
+}
+.apple3{
+    z-index: 11;
+    left: 350px;
+}
+.apple4{
+    z-index: 11;
+    left: 250px;
+    top: -1300px;
+}
+.apple5{
+    z-index: 11;
+    left: 200px;
+}
+.apple6{
+    z-index: 11;
+    left: 300px;
+}
